@@ -228,7 +228,7 @@
 		$tool_name = 'sync_tex_bib';
 		$tool_name_old = 'bib-matcher';
 		
-		echo "$tool_name: A tool for tidying up BibTeX files\n";
+		echo "$tool_name: A tool for tidying up a BibTeX file and synchronising it with an .tex file\n";
 		echo "Copyright (C) 2019-2021 Shujun Li @ www.hooklee.com\n";
 		echo "v2.1 11 July, 2021\n";
 		echo "$tool_name was derived from Martin Rebane's $tool_name_old:\n";
