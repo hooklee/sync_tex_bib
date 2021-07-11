@@ -6,6 +6,26 @@ Deceloper
 
 2019-2021 Shujun Li @ www.hooklee.com
 
+Usage
+====
+
+    php sync_tex_bib.php [options]
+    Options:
+    -t file         Path of the input .tex file (required)
+    -b file         Path of the input .bib file (default: the same name as the .tex file)
+    -o file         Path of the output .bib file (default: [input_bib_filename]_output.bib)
+    -r [...]        Specify a comma-separated list of unwanted BibTeX fields for removal
+                    Default value: abstract,address,isbn,issn,keywords,file,location,timestamp,biburl,bibsource,month
+                    To set the list to empty (i.e., keep all fields), simply use -r without any list.
+     -s              Sort the BibTeX items by their keys (default: do not sort = keep the original order)
+    -cp [...]       Specify a comma-separated list of citation command prefixes (default: cite)
+    -n              Use original field names and item types in all BibTeX items (default: converting to lowercase)
+    -rlb            Remove the leading text before the first BibTeX item (default: keep it)
+    -ric            Remove all inline comments between BibTeX items (default: keep them)
+    -kfb            Keep the final text after the last BibTeX item (default: remove it)
+    -%              Do not exclude inline comments in the .tex file (default: exclude)
+    -,              Add a comma at the end of a field line if it is missing (default: do nothing)
+
 Development History
 =======
 
