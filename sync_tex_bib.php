@@ -2,6 +2,7 @@
 
 	/*********************** DEVELOPMENT HISTORY ******************************/
 	// Deceloper: Shujun Li @ www.hooklee.com
+	// GitHub repo: https://github.com/hooklee/sync_tex_bib
 	// v2.1 11 July 2021
 	// -- Fixed some bugs
 	// -- Added a new feature for excluding inline comments in the .tex file
@@ -229,13 +230,12 @@
 		$tool_name_old = 'bib-matcher';
 		
 		echo "$tool_name: A tool for tidying up a BibTeX file and synchronising it with an .tex file\n";
-		echo "Copyright (C) 2019-2021 Shujun Li @ www.hooklee.com\n";
-		echo "v2.1 11 July, 2021\n";
-		echo "$tool_name was derived from Martin Rebane's $tool_name_old:\n";
-		echo "Martin Rebane @ https://github.com/martinrebane\n";
-		echo "$tool_name_old version May 11, 2018\n";
-		echo "GitHub project: https://github.com/martinrebane/bib-matcher\n";
-		echo "Usage:\n";
+		echo "https://github.com/hooklee/sync_tex_bib\n";
+		echo "Developer: Shujun Li @ www.hooklee.com 2019-2021\n";
+		echo "Latest version: v2.1 (11 July, 2021)\n";
+		echo "$tool_name was derived from Martin Rebane's $tool_name_old version May 11, 2018\n";
+		echo "https://github.com/martinrebane/bib-matcher\n";
+		echo "\nUsage:\n";
 		echo "php $name [options]\n";
 		echo "Options:\n";
 		echo "-t file\t\tPath of the input .tex file (required)\n";
